@@ -12,12 +12,14 @@ This Team Profile Generator prompts the user to create a work team of their choo
 * [Tests](#tests)
 
 ## Installation
-The inquirer package is required to download from npm, as well as Node in terminal to function. Inquirer version 8.2.4 is used in this project. Install the inquirer package from npmjs.com
+The inquirer package is required to download from npm, as well as Node in terminal to function. Inquirer version 8.2.4 is used in this project. Install the inquirer package from npmjs.com with the command npm i inquirer@8.2.4 and the jest package with the command npm i jest, both in the command terminal.
 
 ## Usage
-
+Use inquirer in the command line to answer questions and generate the HTML page.
 
 A video for usage is included below:
+
+Sample generated HTML page below:
 
 ## License
 Refer to license in repo or as below:
@@ -36,4 +38,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Shields were generated using shields.io.
 
 ## Tests
-Tests are included in the "tests" folder.
+Run npm test in command line to run Jest for constructor tests. 

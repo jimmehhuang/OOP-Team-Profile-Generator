@@ -81,9 +81,9 @@ const addManager = () => {
 // Prompts to add employees to the team
 const addEmployee = () => {
     console.log(`
-    =================
-    Adding employees to the team
-    =================
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Please wait...constructing your team
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     `);
 
     return inquirer.prompt ([
@@ -174,12 +174,10 @@ const addEmployee = () => {
 
         if (role === "Engineer") {
             employee = new Engineer (name, id, email, github);
-
             console.log(employee);
 
         } else if (role === "Intern") {
             employee = new Intern (name, id, email, school);
-
             console.log(employee);
         }
 
@@ -195,7 +193,7 @@ const addEmployee = () => {
 };
 
 
-// function to generate HTML page 
+// function to generate HTML page and write HTML file
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
         // error handling

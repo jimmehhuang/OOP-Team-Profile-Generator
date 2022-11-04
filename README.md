@@ -19,7 +19,14 @@ Use inquirer in the command line to answer questions and generate the HTML page.
 
 A video for usage is included below:
 
+
+https://user-images.githubusercontent.com/113392613/200067267-bdf7f841-0b08-48d2-b4b1-7d786e4ce863.mp4
+
+
 Sample generated HTML page below:
+
+![sample team profile](https://user-images.githubusercontent.com/113392613/200066244-16c3d6d6-be8e-425c-8751-5f05f1d7182b.png)
+
 
 ## License
 Refer to license in repo or as below:
